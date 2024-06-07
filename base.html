@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepheus: Finding Our Home Amongst the Stars</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+    <section class="back">
+        <h1>
+            <a class="Cepheus" href="home.html">Cepheus</a>
+        </h1>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Mission</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="overview.html">Overview</a>
+                                <a class="a" href="team.html">Team</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="Spaceship.html">Spaceship</a>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Discover</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="location.html">Location</a>
+                                <a class="a" href="journey.html">Journey</a>
+                                <a class="a" href="base.html">Base</a>
+                                <a class="a" href="health.html">Health</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Project Highlights</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="goals.html">Goals</a>
+                                <a class="a" href="process.html">Process Log</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="sources.html">Sources</a>
+                    </li>
+                </ul>
+           </nav>
+        </header>
+    </section>
+    <section id="home">
+        <div class="intro">
+            <h1 class="heading" style="font-family: 'Return Space', serif;">Base</h1>
+            <p>Building our first habitat on <b class="mars">Mars</b></p>
+            <script>
+                document.querySelector('.learn-more-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+            </script>
+            </div>
+            <div class="annotation-toggle" onclick="toggleAnnotations('home-annotations')">
+                <i class="fas fa-info"></i>
+            </div>
+            <div id="home-annotations" class="annotations">
+                <p>Annotations for the home section...</p>
+            </div>
+        </section>
+        <section id="background">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="topic">Overview
+                         <p class="overview">The journey can be divided into 3 parts:
+                            <p class="overview1">1. Escaping Earth's Orbit</p>
+                            <p class="overview1">2. The travel from Earth to Mars</p>
+                            <p class="overview1">3. The plan upon reaching Mars</p>
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #121212;
+                color: #E0E0E0;
+            }
+            .container {
+                max-width: 800px;
+                margin: auto;
+                background: #1E1E1E;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+            h1, h2, h3 {
+                color: #BB86FC;
+                margin-bottom: 10px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            ul {
+                margin: 10px 0 20px 20px;
+                padding: 0;
+                list-style-type: disc;
+            }
+            ul li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="container">
+        <h1>Mars Base Development Program</h1>
+    
+        <h2>Phase 1: Robotic Deployment and Initial Construction</h2>
+    
+        <h3>Central Base Unit</h3>
+
+        <p>Robots will be sent from Earth to Mars in several missions. The robots will be equipped with advanced AI and autonomous construction capabilities. Moreover, they will be connected to mission control on Earth to help them build the base for the astronauts. The equipment and materials to build the base will be sent with the robots.</p>
+    
+        <h3>Peripheral Bases and Socialization Hub</h3>
+        <p>The Central Base Unit is constructed first, designed to be the main center for resources and logistics. It will have:</p>
+        <ul>
+            <li>Oxygen production systems (using molten regolith electrolysis)</li>
+            <li>Water extraction, liquefaction, purification, and recycling systems</li>
+            <li>Energy production systems (using molten regolith electrolysis)</li>
+            <li>Food production (hydroponics systems)</li>
+        </ul>
+        <p>The Peripheral Bases are constructed around a small socialization hub that is connected to the Central Base Unit. The four bases will be connected to the small socialization hub and the Central Base Unit via underground or surface tunnels for resource distribution, and pathways for the astronauts.</p>
+    
+        <h3>Infrastructure Setup</h3>
+        <p>Power lines, water pipes, air ducts, air pressure maintenance pipes, and pathways for astronauts to move around, get grown food, and transport their wastes will be installed. Also, communication networks between mission control and within the base will be established to ensure seamless operations.</p>
+    
+        <h2>Phase 2: Human Arrival and Base Exploration</h2>
+    
+        <h3>Human Deployment</h3>
+        <p>Once the initial bases are built, operational, and successfully tested, 20 astronauts will be sent from Earth to Mars. The initial teams will consist of biologists, botanists, engineers, scientists, and medical personnel. All of them will undergo extensive training to ensure their mental and physical resilience to the Martian environment.</p>
+    
+        <h3>Base Expansion</h3>
+        <p>Humans will work on expanding the base structures, installing new living quarters, research labs, and recreational areas. With robotic assistance, humans will continue exploration and diggings on the Martian surface, controlling robots to gather resources and expand the base.</p>
+    
+        <h3>Operational Enhancement</h3>
+        <p>To sustain the technologies that supply oxygen, food, water, and energy, systems will be regularly checked, maintained, and replaced by humans and advanced robots.</p>
+    
+        <h3>Exploration and Resource Utilization</h3>
+        <p>Humans and robots will conduct research on the Martian ground to find minerals and rocks that will aid in the expansion and maintenance of the base.</p>
+    
+        <h2>Phase 3: Long-Term Sustainability and Growth</h2>
+    
+        <h3>Research and Development</h3>
+        <p>Continuous research and development will focus on improving oxygen extraction and electricity production systems, with plans to incorporate nuclear power for additional electricity. Innovations in agriculture, recycling, and habitat construction will be prioritized.</p>
+    
+        <h3>Expansion of Habitats</h3>
+        <p>New habitats and modules will be constructed to accommodate more astronauts and, over time, permanent settlers. Additional research labs, resource systems, and new bases will be created, specifically designed for ordinary settlers rather than just mission personnel.</p>
+    <h3>Description of the Base</h3>
+    <p>The Base is going to have one Central Base Unit, one Socialing Hub, and 4 peripheral bases where the colonists will live. The socialisation hub is for the connectedness and sense of community between the colonists and since there are 20 colonists, there are 4 bases with 5 people living in each. The socliasation hub is connected to the Central Base Unit where all the energy that is processed, extracted oxygen, purified and recycled water, and grown food is transported. Then from the socialisation hub, it transports to every base. </p>
+    <h3>Annotaion Images and Plans for the Base></h3>
+    <img src="c:\Users\Daniel Kebede\OneDrive - Brindabella Christian College\Pictures\Screenshots\Screenshot 2024-06-07 213854.png" alt="Top View of the Base on the Left and the Rooms on the Right" style="width:300px;height:200px;">
+    <img src="C:\Users\Daniel Kebede\OneDrive - Brindabella Christian College\Pictures\Screenshots\Screenshot 2024-06-07 213838.png" alt="Map of the Base Systems in the Base" style="width:300px;height:200px;">
+
+    </div>
+    
+    </body>
+</html>
